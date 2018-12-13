@@ -1,0 +1,17 @@
+.slick-container {
+    height: auto;
+    width: 100%;   
+    margin: 2rem auto 0 auto;
+}
+
+.main-item {
+    margin-bottom: 1rem;
+    height: auto;
+    width: 100%;
+}
+
+.main-item img {
+    height: auto;
+    width: 100%;
+    margin: auto;
+}
