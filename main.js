@@ -10,9 +10,9 @@ $('.slider-for').slick({
   $('.slider-nav').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
+    touchThreshold: 40,
     asNavFor: '.slider-for',
-    swipe:false,
-    // swipeToSlide: true,
+    swipeToSlide: true,
     dots: false,
     centerMode: true,
     focusOnSelect: true,
@@ -24,5 +24,6 @@ $('.carousel2').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
   touchThreshold: 40,
-  centerMode: true
+  centerMode: true,
+  touchMove: false
 });
