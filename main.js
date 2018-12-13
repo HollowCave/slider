@@ -16,3 +16,6 @@ $('.slider-for').slick({
     centerMode: true,
     focusOnSelect: true
   });
+
+//   Second Carousel
+$('.carousel2').slick();
