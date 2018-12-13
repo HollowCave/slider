@@ -14,8 +14,14 @@ $('.slider-for').slick({
     swipeToSlide: true,
     dots: false,
     centerMode: true,
-    focusOnSelect: true
+    focusOnSelect: true,
+    infinite: true
   });
 
 //   Second Carousel
-$('.carousel2').slick();
+$('.carousel2').slick({
+  slidesToShow: 1,
+  slidesToScroll: 1,
+  touchThreshold: 40,
+  centerMode: true
+});
