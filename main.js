@@ -1,14 +1,14 @@
 $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    touchThreshold: 20,
+    touchThreshold: 40,
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav'
   });
 
   $('.slider-nav').slick({
-    slidesToShow: 1.25,
+    slidesToShow: 1,
     slidesToScroll: 1,
     asNavFor: '.slider-for',
     swipeToSlide: true,
