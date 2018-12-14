@@ -1,7 +1,7 @@
 $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    touchThreshold: 1,
+    touchThreshold: 100,
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav'
@@ -10,7 +10,7 @@ $('.slider-for').slick({
   $('.slider-nav').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    touchThreshold: 1,
+    touchThreshold: 100,
     asNavFor: '.slider-for',
     swipeToSlide: true,
     dots: false,
