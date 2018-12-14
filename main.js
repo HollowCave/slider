@@ -1,7 +1,7 @@
 $('.slider-for').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    touchThreshold: 20,
+    touchThreshold: 10,
     arrows: false,
     fade: true,
     asNavFor: '.slider-nav'
@@ -10,7 +10,7 @@ $('.slider-for').slick({
   $('.slider-nav').slick({
     slidesToShow: 1,
     slidesToScroll: 1,
-    touchThreshold: 20,
+    touchThreshold: 10,
     asNavFor: '.slider-for',
     swipeToSlide: true,
     dots: false,
@@ -23,7 +23,7 @@ $('.slider-for').slick({
 $('.carousel2').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  touchThreshold: 20,
+  touchThreshold: 10,
   centerMode: true,
   touchMove: false
 });
