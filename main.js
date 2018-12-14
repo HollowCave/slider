@@ -23,7 +23,7 @@ $('.slider-for').slick({
 $('.carousel2').slick({
   slidesToShow: 1,
   slidesToScroll: 1,
-  touchThreshold: 4,
+  touchThreshold: 400,
   centerMode: true,
   touchMove: false
 });
